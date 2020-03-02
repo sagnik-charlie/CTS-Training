@@ -1,0 +1,22 @@
+<html>
+<head>
+<title></title>
+<script>
+ function btn()
+   {
+    var temp = document.getElementById("b1");
+      if (temp.value=="Mon") {temp.value = "Tues";}
+	  else if (temp.value=="Sun") {temp.value = "Mon";}
+	  else if (temp.value=="Tues") {temp.value = "Wed";}
+      else if (temp.value=="Wed") {temp.value = "Thurs";}
+      else if (temp.value=="Thurs") {temp.value = "Fri";}
+      else if (temp.value=="Fri") {temp.value = "Sat";}
+      else {temp.value="Sun";}
+   }
+</script>
+<head>
+<body>
+ <input type="text" value="Mon" id="b1">
+ <button  onclick="btn();" >Click</button>
+</body>
+</html>

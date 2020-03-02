@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+function iteration(){
+var i;
+for(i=1;i<=100;i++){
+if(i%3==0)
+document.writeln("Fizz");
+else if(i%5==0)
+document.writeln("Buzz");
+else if(i%3==0 && i%5==0)
+document.writeln("FizzBuzz");
+}
+}
+</script>
+</head>
+<body>
+<center>
+<p>This is a Javascript program</p>
+<input type="button" value="click" onclick="iteration();">
+</center>
+</body>
+</html>
